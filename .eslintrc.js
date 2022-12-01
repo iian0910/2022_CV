@@ -2,7 +2,8 @@ module.exports = {
   root: true,
   env: {
     browser: true,
-    node: true
+    node: true,
+    jquery: true
   },
   parserOptions: {
     parser: '@babel/eslint-parser',
@@ -10,7 +11,7 @@ module.exports = {
   },
   extends: [
     '@nuxtjs',
-    'plugin:nuxt/recommended',
+    'plugin:nuxt/recommended'
   ],
   plugins: [
   ],
